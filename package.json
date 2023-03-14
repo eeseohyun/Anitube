@@ -1,28 +1,28 @@
 {
 	"name": "anitube",
 	"version": "1.0.0",
-	"description": "To watch Animation.",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/eeseohyun/anitube.git"
-	},
+	"description": "You can watch animation you want!",
 	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "nodemon --exec babel-node src/server.js"
 	},
-	"author": "eeseohyun",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eeseohyun/Anitube.git"
+	},
+	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/eeseohyun/anitube/issues"
+		"url": "https://github.com/eeseohyun/Anitube/issues"
 	},
-	"homepage": "https://github.com/eeseohyun/anitube#readme",
+	"homepage": "https://github.com/eeseohyun/Anitube#readme",
 	"dependencies": {
 		"express": "^4.18.2",
-		"morgan": "^1.10.0",
-		"pug": "^3.0.2"
+		"morgan": "^1.10.0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.20.5",
-		"@babel/node": "^7.20.5",
+		"@babel/core": "^7.21.0",
+		"@babel/node": "^7.20.7",
 		"@babel/preset-env": "^7.20.2",
 		"nodemon": "^2.0.20"
 	}
